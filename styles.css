@@ -1,0 +1,155 @@
+body{
+        background-image: url(./background.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+}
+header{
+    background-image: url(./esta\ va.png);
+    width: 100vw;
+    height: 5em;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items:center ;
+    color: white;
+}
+h3{
+    font-size:25px;
+}
+.imagenes{
+    border: 2px solid black;
+    width: fit-content;
+    margin: 1em;
+    padding: 1em 1em 1em 1em;
+    background-image: url(./probando.jpg);
+    border-radius: 10%;
+    transition: 0.5s;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    align-items: center;
+    color:lightgoldenrodyellow;
+    font-weight: 900;
+}
+.imagenes:hover{
+    background-color:#c8faf2;
+    color: blue;
+    border-radius: 0%;
+    margin-left: 2em;
+}
+#ventanas{
+    font-size: 40px;
+    margin:0em 0em 0em 8.2em;
+    margin-bottom: 0.5em;
+    margin-top: 0.6em;
+    display: flex;
+    justify-content:flex-start;
+}
+img{
+    width: 150px;
+    height: 150px;
+    border-radius: 10%;
+}
+#unica{
+    font-size: 23px;
+}
+.contenedor{
+    background-image: url(./IMG-20241007-WA0030\ \(1\).jpg);
+    width: 45vw;
+    margin:0em 0em 0em 1em;
+    border: 3px solid white;
+    border-radius: 5%;
+    display: flex;
+    justify-content: space-around;
+}
+#caja{
+    background-image: url(./h2.jpg);
+    border: 3px solid black;
+    border-radius: 15px;
+    padding:1em 1em 1em 1em ;
+    margin: auto;
+    width: 85vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+#achedos{
+    font-size: 30px;
+    width: fit-content;
+    padding: 0.3em;
+    margin:auto;
+    font-weight:bold;
+}   
+#cajon{
+    background-image: url(./h2.jpg);
+    width:85vw;
+    color:white;
+    border: 3px solid black;
+    border-radius: 15px;
+    padding: 1em;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    align-items: center;
+    justify-content: space-around;
+}
+.over:hover{
+    color: lightblue;
+}
+#quien{
+    font-size: 30px;
+    width: fit-content;
+    margin: auto;
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+}
+.hr{
+    width: 100vw;
+    height:1.5em;
+    background-image: url(./IMG-20241007-WA0030\ \(1\).jpg);
+    border: 3px ridge black;
+    margin: auto;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#titulo{
+    font-size: 50px;
+}
+.resaltado{
+    font-size: 60px;
+    color: red;
+}
+.imagenes2{
+    border: 2px solid black;
+    width: fit-content;
+    margin: 1em;
+    padding: 1em 1em 1em 1em;
+    background-image: url(./probando.jpg);
+    border-radius: 10%;
+    transition: 0.5s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 1em;
+    align-items: center;
+    color:lightgoldenrodyellow;
+    font-weight: 900;
+}
+#cont{
+    display: flex;
+    flex-direction:row;
+    margin: auto;
+    justify-content: space-around;
+    align-items: center;
+}
+.imagenes2:hover{
+    background-color:#c8faf2;
+    color: blue;
+    border-radius: 0%;
+    margin-left: 2em;
+}
