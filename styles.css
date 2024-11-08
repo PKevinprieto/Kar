@@ -58,7 +58,7 @@ img{
 .contenedor{
     background-image: url(./IMG-20241007-WA0030\ \(1\).jpg);
     width: 45vw;
-    margin:0em 0em 0em 1em;
+    margin:1em 0em 0em 1em;
     border: 3px solid white;
     border-radius: 5%;
     display: flex;
@@ -76,14 +76,23 @@ img{
     align-items: center;
     color: white;
 }
-#achedos{
-    background-color: red;
-    font-size: 30px;
-    width:85vw;
-    padding: 0.3em;
+.achedos{
+    background-image: url(./achedos.jpg);
+    font-size: 20px;
+    width:fit-content;
+    padding: 1em;
+    margin: auto;
+    margin-bottom: 1em;
     display: flex;
-    justify-content: space-around;
+    justify-content:center;
     align-items: center;
+    color: rgb(213, 254, 255);
+    border: 2px solid white;
+    border-radius: 1%;
+    border-top-color: aqua;
+    border-bottom-color: red;
+    border-left-color: rgb(68, 0, 255);
+    border-right-color: rgb(55, 0, 255);
 }   
 #cajon{
     background-image: url(./h2.jpg);
@@ -148,6 +157,7 @@ img{
     margin: auto;
     justify-content: space-around;
     align-items: center;
+    margin-top: 1em;
 }
 .imagenes2:hover{
     background-color:#c8faf2;
@@ -165,4 +175,9 @@ img{
     justify-content: space-around;
     flex-direction: row;
     align-items: center;
+}
+.mover{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
 }
